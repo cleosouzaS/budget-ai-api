@@ -55,6 +55,13 @@
             <artifactId>spring-boot-starter-webmvc</artifactId>
         </dependency>
 
+        <!-- Swagger / OpenAPI -->
+<dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+    <version>3.1.0</version>
+</dependency>
+
         <!-- Banco de dados MariaDB -->
         <dependency>
             <groupId>org.mariadb.jdbc</groupId>
